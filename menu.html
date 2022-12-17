@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hotel Managaement systems Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="cafe_Website.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+        <a href="login.html" class="w3-button w3-block w3-black">LOGIN</a>
+      </div>
+    <div class="w3-col s3">
+      <a href="booking.html" class="w3-button w3-block w3-black">BOOKING</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="menu.html" class="w3-button w3-block w3-black">CONTACT & FEEDBACK</a>
+    </div>
+    <div class="w3-col s3">
+        <a href="payment.html" class="w3-button w3-block w3-black">PAYMENT</a>
+      </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+
+
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'CONTACT');" id="myLink">
+        <div class="w3-col s6 tablink">CONTACT</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'FEEDBACK');">
+        <div class="w3-col s6 tablink">FEEDBACK</div>
+      </a>
+    </div>
+
+    <div id="CONTACT" class="w3-container menu w3-padding-48 w3-card">
+      <!-- <h5>Bread Basket</h5>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    
+      <h5>Honey Almond Granola with Fruits</h5>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+      <h5>Belgian Waffle</h5>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+    
+      <h5>Scrambled eggs</h5>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+    
+      <h5>Blueberry Pancakes</h5>
+      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p> -->
+      
+      <h3>ADDRESS :</h3>
+      
+      <h5>TANK BUND ROAD, OPPOSITE HUSSAIN SAGAR LAKE,</h5>
+      <h5>HYDERABAD, INDIA, 500080</h5>
+      <h5></h5>
+
+
+        
+        <P class="w3-text-grey">TOLL FREE:+91-800-102 5000 </P><br>
+        <P class="w3-text-grey">EMAIL:MARRIOTTHOTEL@GMAIL.COM</P><br>
+
+    
+    
+    </div>
+
+    <div id="FEEDBACK" class="w3-container menu w3-padding-48 w3-card">
+      <!-- <h5>Coffee</h5>
+      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+    
+      <h5>Chocolato</h5>
+      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+    
+      <h5>Corretto</h5>
+      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+    
+      <h5>Iced tea</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+    
+      <h5>Soda</h5>
+      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+    </div>   -->
+
+    <head>
+        <title>Online Feedback Form</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <style>
+          html, body {
+          min-height: 100%;
+          }
+          body, div, form, input, p { 
+          padding: 0;
+          margin: 0;
+          outline: none;
+          font-family: inconsolata, sans-serif;
+          font-size: 15px;
+          color: #666;
+          line-height: 22px;
+          }
+          h1 {
+          font-weight: 400;
+          }
+          h4 {
+          margin: 22px 0 4px;
+          color: #095484;
+          }
+          .testbox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: inherit;
+          padding: 3px;
+          }
+          form {
+          width: 100%;
+          padding: 20px;
+          background: #fff;
+          box-shadow: 0 2px 5px #ccc; 
+          }
+          input {
+          width: calc(100% - 10px);
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+          vertical-align: middle;
+          }
+          input:hover, textarea:hover {
+          outline: none;
+          border: 1px solid #095484;
+          }
+          .first-name {
+          margin-bottom: 22px;
+          }
+          span {
+          color: red;
+          }
+          th, td {
+          width: 21%;
+          padding: 15px 0;
+          border-bottom: 1px solid #ccc;
+          text-align: center;
+          vertical-align: unset;
+          line-height: 18px;
+          font-weight: 400;
+          word-break: break-all;
+          }
+          .first-col {
+          width: 16%;
+          text-align: left;
+          }
+          table {
+          width: 100%;
+          }
+          textarea {
+          width: calc(100% - 6px);
+          }
+          .btn-block {
+          margin-top: 20px;
+          text-align: center;
+          }
+          button {
+          width: 150px;
+          padding: 10px;
+          border: none;
+          -webkit-border-radius: 5px; 
+          -moz-border-radius: 5px; 
+          border-radius: 5px; 
+          background-color: #095484;
+          font-size: 16px;
+          color: #fff;
+          cursor: pointer;
+          }
+          button:hover {
+          background-color: #0666a3;
+          }
+          @media (min-width: 568px) {
+          th, td {
+          word-break: keep-all;
+          }
+          }
+        </style>
+      </head>
+      <body>
+        <div class="testbox">
+          <form action="/">
+            <h1>Online Feedback Form</h1>
+            <p>Thank you for taking the time to fill in our online feedback form. By providing us your feedback, you are helping us understand what we do well and what improvements we need to implement.</p>
+            <h4>Name</h4>
+            <input class="first-name" type="text" name="name" placeholder="First" />
+            <input type="text" name="name" placeholder="Last" />
+            <h4>Email<span>*</span></h4>
+            <input type="text"/>
+            <h4>How satisfied were you with:<span>*</span></h4>
+            <table>
+              <tr>
+                <th class="first-col"></th>
+                <th>Very Satisfied</th>
+                <th>Satisfied</th>
+                <th>Unsatisfied</th>
+                <th>Very Unsatisfied</th>
+              </tr>
+              <tr>
+                <td class="first-col">Service</td>
+                <td><input type="radio" value="none" name="point#1" /></td>
+                <td><input type="radio" value="none" name="point#1” /></td>
+                <td><input type="radio" value="none" name="point#1" /></td>
+                <td><input type="radio" value="none" name="point#1" /></td>
+              </tr>
+              <tr>
+                <td class="first-col">User Experience</td>
+                <td><input type="radio" value="none" name="point#2" /></td>
+                <td><input type="radio" value="none" name="point#2" /></td>
+                <td><input type="radio" value="none" name="point#2" /></td>
+                <td><input type="radio" value="none" name="point#2" /></td>
+              </tr>
+              <tr>
+                <td class="first-col">UI Design </td>
+                <td><input type="radio" value="none" name="point#3" /></td>
+                <td><input type="radio" value="none" name="point#3" /></td>
+                <td><input type="radio" value="none" name="point#3" /></td>
+                <td><input type="radio" value="none" name="point#3" /></td>
+              </tr>
+              <!-- <tr>
+                <td class="first-col">Key point #4</td>
+                <td><input type="radio" value="none" name="point#4" /></td>
+                <td><input type="radio" value="none" name="point#4" /></td>
+                <td><input type="radio" value="none" name="point#4" /></td>
+                <td><input type="radio" value="none" name="point#4" /></td>
+              </tr>
+              <tr>
+                <td class="first-col">Key point #5</td>
+                <td><input type="radio" value="none" name="point#5" /></td>
+                <td><input type="radio" value="none" name="point#5" /></td>
+                <td><input type="radio" value="none" name="point#5" /></td>
+                <td><input type="radio" value="none" name="point#5" /></td>
+              </tr> -->
+            </table>
+            <h4>Feel free to add any other comments or suggestions:</h4>
+            <textarea rows="5"></textarea>
+            <small>* The information given within the Feedback Form will be used for service improvement only and are strictly confidential.</small>
+            <div class="btn-block">
+              <button type="submit" href="/">Send Feedback</button>
+            </div>
+          </form>
+        </div>
+      </body>
+
+    <!-- <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;"> -->
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer> -->
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
